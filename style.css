@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #d8eed2;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6rem;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 89vh;
+  background-color: #fdfdfd;
+  padding: 0 4rem;
+  border-radius: 3.2rem 3.2rem 0 0;
+  gap: 3.2rem;
+}
+
+#imgPizza {
+  border-radius: 50%;
+  margin-top: -5rem;
+  box-shadow: 0px 10px 26px 0px rgba(58, 171, 30, 0.555);
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #242424;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  margin-bottom: 3.6rem;
+}
+
+.information {
+  display: flex;
+  padding: 0.8rem 0;
+  gap: 2.4rem;
+  width: 100%;
+}
+
+.infomationsContainers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 0;
+}
+
+.infomationsContainers > h2 {
+  font-size: 1.4rem;
+  color: #242424;
+}
+
+.infomationsContainers > p {
+  font-size: 1.6rem;
+  color: #242424;
+}
+
+.graph {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.graph > div > h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.graph > div > h2 > p {
+  font-weight: normal;
+}
+
+.divValues {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.barValues {
+  flex: 1 0 0;
+  height: 0.8rem;
+  border-radius: 1.6rem;
+  margin: 1.2rem 0 1.6rem 0;
+}
+
+.barValues:nth-child(1) {
+  background-color: #3bab1e;
+}
+.barValues:nth-child(2) {
+  background-color: #3bab1e;
+}
+.barValues:nth-child(3) {
+  background-color: #3bab1e;
+}
+
+.barValues:nth-child(4) {
+  background-color: #b1dda5;
+}
+.barValues:nth-child(5) {
+  background-color: #b1dda5;
+}
+.barValues:nth-child(6) {
+  background-color: #b1dda5;
+}
+
+.barValues2 {
+  flex: 1 0 0;
+  height: 0.8rem;
+  border-radius: 1.6rem;
+  margin: 1.2rem 0 1.6rem 0;
+}
+
+.barValues2 {
+  background-color: #b1dda5;
+}
+
+.barValues2:first-child {
+  background-color: #3bab1e;
+}
+
+.details {
+  background-color: #3bab1e;
+  width: 29.6rem;
+  height: 5.6rem;
+  border-radius: 1.6rem;
+  box-shadow: 0px 8px 24px 0px rgba(59, 171, 30, 0.25);
+  color: #fdfdfd;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+}
