@@ -21,7 +21,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Jogo da forca foi desenvolvido nas aulas da AdaTech, com foco em aprender melhor os funcionamentos do CANVA no HTML, e aprimorar as habilidades JavaScript com criatividade
+Desenolvido para mobile, os desafios disponibilizados pela rocketseat no figma focam em ajudar os DEVS a aprimorarem suas habilidades em diversas tecnologias, nesse caso uma aplicação front-end com enfase em HTML e CSS.
 
 - [Visualize o figma do projeto](https://www.figma.com/community/file/1281253271689247675/tabela-nutricional-desafio-36)
 
